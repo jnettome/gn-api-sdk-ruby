@@ -1,3 +1,8 @@
+# 1.2.0
+
+- Updated: Changing from gerencianet.com.br to efipay.com.br
+- Updated: http.rb non sticky version
+
 # 1.0.2
 
 - Updated: PixSend example
