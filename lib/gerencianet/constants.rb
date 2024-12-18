@@ -3,12 +3,12 @@ module Gerencianet
   module Constants
     URL = {
       DEFAULT: {
-          production: "https://api.gerencianet.com.br/v1",
-          sandbox: "https://sandbox.gerencianet.com.br/v1"
+          production: "https://cobrancas.api.efipay.com.br/v1",
+          sandbox: "https://cobrancas-h.api.efipay.com.br/v1"
       },
       PIX: {
-          production: "https://api-pix.gerencianet.com.br",
-          sandbox: "https://api-pix-h.gerencianet.com.br"
+          production: "https://pix.api.efipay.com.br",
+          sandbox: "https://pix-h.api.efipay.com.br"
       }
     }
 
