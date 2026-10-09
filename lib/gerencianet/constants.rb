@@ -42,6 +42,12 @@ module Gerencianet
           route: "/charge/:id/cancel",
           method: "put"
         },
+        # Partial or full refund of a paid credit-card charge. Body may include
+        # {"amount": cents}; omitting it refunds the full charge.
+        refund_card: {
+          route: "/charge/card/:id/refund",
+          method: "post"
+        },
         create_carnet: {
           route: "/carnet",
           method: "post"
